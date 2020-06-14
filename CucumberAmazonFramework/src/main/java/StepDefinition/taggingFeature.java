@@ -14,6 +14,9 @@ public void user_is_on_login_screen() {
 @When("user enters username and password")
 public void user_enters_username_and_password() {
     System.out.println("username and password entered");
+    System.out.println("username and password entered2");
+    System.out.println("username and password entered3");
+    System.out.println("username and password entered4");
 }
 
 @Then("user clicks on login button")
