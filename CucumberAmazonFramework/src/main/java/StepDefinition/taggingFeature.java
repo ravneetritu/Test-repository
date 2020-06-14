@@ -9,6 +9,8 @@ public class taggingFeature {
 @Given("user is on login screen")
 public void user_is_on_login_screen() {
    System.out.println("On login screen");
+   System.out.println("On login screen 2");
+   System.out.println("On login screen 3");
 }
 
 @When("user enters username and password")
