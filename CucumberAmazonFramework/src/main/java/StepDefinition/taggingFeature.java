@@ -24,11 +24,17 @@ public void user_enters_username_and_password() {
 @Then("user clicks on login button")
 public void user_clicks_on_login_button() {
     System.out.println("login button clicked");
+    System.out.println("login button clicked2");
+    System.out.println("login button clicked3");
+    System.out.println("login button clicked4");
 }
 
 @Then("user verifies the homeScreen")
 public void user_verifies_the_homeScreen() {
-  System.out.println("homeScreen verified");
+  System.out.println("homeScreen verified1");
+  System.out.println("homeScreen verified2");
+  System.out.println("homeScreen verified3");
+  System.out.println("homeScreen verified4");
 }
 
 @Then("user searches an item")
